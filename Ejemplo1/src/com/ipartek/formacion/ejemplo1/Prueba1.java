@@ -6,7 +6,7 @@ public class Prueba1 {
 		//TODO mejorar este ejemplo
 		Punto p =new Punto(3,4);
 		Punto p2=(Punto) p.clone();		
-		p.setX(100);
+		p.setX(10);
 		
 		System.out.println(p.equals(p2));
 		System.out.println(p);
